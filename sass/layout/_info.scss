@@ -1,0 +1,46 @@
+.section-info {
+  background-color: #fff;
+  padding: 9.2rem 0 9.6rem 0;
+}
+
+.info {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+  gap: 12.4rem;
+}
+
+.info-img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+}
+
+.info-header {
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  text-align: center;
+  list-style: none;
+}
+
+.info-list--item {
+  list-style: none;
+  font-size: 2rem;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.check-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
