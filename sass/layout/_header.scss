@@ -2,51 +2,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f9f9fd;
+  background-color: $color-grey-light-1;
 
   /* Because we want header to be sticky later */
-  height: 9.6rem;
+  height: 8rem;
   padding: 0 4.8rem;
   position: relative;
+
+  @media only screen and (max-width: $bp-medium) {
+  padding: 0 3.2rem;
 }
 
-.header--icon {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 3.2rem;
-}
-
-.main-nav--list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 4.8rem;
-}
-
-.main-nav-link:link,
-.main-nav-link:visited {
-  display: inline-block;
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  font-size: 1.8rem;
-  transition: all 0.3s;
-}
-
-.main-nav-link:hover,
-.main-nav-link:active {
-  color: #727cf5;
-}
-
-.main-nav-link.nav-cta:link,
-.main-nav-link.nav-cta:visited {
-  padding: 1.2rem 2.4rem;
-  border-radius: 9px;
-  color: #fff;
-  background-color: #727cf5;
-}
-
-.main-nav-link.nav-cta:hover,
-.main-nav-link.nav-cta:active {
-  background-color: #6169d0;
+  &__icon:link,
+  &__icon:visited {
+    text-shadow: 1px 1px 2px $color-grey-light-3;
+    color: $color-primary;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3.2rem;
+  }
 }

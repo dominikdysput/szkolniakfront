@@ -1,14 +1,24 @@
 //colors
-// $color-primary:
-// $color-primary-light:
-// $color-primary-dark:
-/* 
-colors: primary theme:#727cf5;
-        theme: hover: #6169d0
+$color-primary:#727cf5;
+$color-primary-dark:#6169d0;
 
-backgroud left panel: #313a46
+$color-grey-light-1: #f9f9fd;
+$color-grey-light-2: #ececff;
+$color-grey-light-3: #e1e1e1;
 
-baclground color1 : #6c757d
-backgroud color: #f9f9fd
+$color-white: #fff;
+$color-grey-1: #333;
+$color-grey-2: #999;
+$color-black: #000;
 
-*/
+$color-grey-dark: #313a46;
+
+
+//font
+$default-font-size: 1.6rem;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 87.5em;   // 1300px
+$bp-large: 66em;   // 1000px
+$bp-medium: 50em;    // 800px;
+$bp-small: 37.5em;    // 600px;
